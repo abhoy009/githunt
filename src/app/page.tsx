@@ -1,7 +1,11 @@
+// Make sure the Button component exists at the specified path.
+// If not, update the import path or create the file.
+import { Button } from "../components/ui/button";
+
 export default async function Home() {
   return (
     <>
-      <h1 className="text-red-700 text-3xl">hello</h1>
+      <Button>Click me</Button>
     </>
   );
 }
